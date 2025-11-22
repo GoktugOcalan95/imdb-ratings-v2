@@ -1,0 +1,16 @@
+# Ignore dependencies
+node_modules
+.svelte-kit
+build
+
+# Ignore secrets and environment configs
+.env
+.env.*
+
+# Ignore git history
+.git
+.gitignore
+.gitattributes
+Dockerfile
+docker-compose.yml
+README.md
